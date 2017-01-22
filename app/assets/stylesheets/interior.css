@@ -1,0 +1,20 @@
+body{
+background-color:grey;
+margin:0px;
+}
+#company_name{
+color:whitesmoke;
+font-size:30px;
+}
+#header_table td {
+   padding-right: 10px;
+}
+#product_header {
+margin-left:400px;
+background-color: rgba(128, 128, 128, 0.52);
+}
+#product_logo {
+color:whitesmoke;
+text-align:center;
+}
+

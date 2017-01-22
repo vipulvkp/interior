@@ -1,0 +1,33 @@
+<h2>Contact Us</h2>
+<h3>Bangalore Office</h3>
+<div id="contact details" style="background-color:white">
+<span>Hennur Main Road<br/>HBR Layout<br/>Kalyanagar PO-560043<br/>Bangalore<br/><br/> </span>
+
+<span> Call us for more details at : +91-9000000 and +91-987987987 </span><br/>
+<span> Mail us at comp@gmail.com</span><br/>
+<span> Visit us at </span><br/>
+</div>
+
+<div id="map" style="width:500px;height:500px"></div>
+    <script>
+      function show() {
+        var coords = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: coords 
+        });
+        var marker = new google.maps.Marker({
+          position: coords,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuMCYDvlkn8QRHycQP0j8v2BgzsSyGItc&callback=show">
+    </script>
+
+
+
+
+
+
